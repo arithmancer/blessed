@@ -44,6 +44,7 @@ setuptools.setup(
     url='https://github.com/jquast/blessed',
     project_urls={'Documentation': 'https://blessed.readthedocs.io'},
     include_package_data=True,
+    package_data={'blessed': ['py.typed', '__init__.pyi']},
     zip_safe=True,
     classifiers=[
         'Intended Audience :: Developers',
